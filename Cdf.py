@@ -1,3 +1,5 @@
+#I didn't write this though. I had to import it for another example to work.
+
 """This file contains code for use with "Think Stats",
 by Allen B. Downey, available from greenteapress.com
 
@@ -96,10 +98,10 @@ class Cdf(object):
     def Random(self):
         """Chooses a random value from this distribution."""
         return self.Value(random.random())
-    
+
     def Sample(self, n):
         """Generates a random sample from this distribution.
-        
+
         Args:
             n: int length of the sample
         """
